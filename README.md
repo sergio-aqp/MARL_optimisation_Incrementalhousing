@@ -1,4 +1,4 @@
-The main programme is on MARL_cloud.py
+The main programme is on MARL_cloud.py //
 final_soc_mod.csv is in example of input file coming from the socio-economic model
 Previous to running the programme you need to have installed in your computer:
 - A licensed version of Rhino 7
