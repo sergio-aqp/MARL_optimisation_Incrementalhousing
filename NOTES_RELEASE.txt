@@ -1,0 +1,29 @@
+conda activate novttwo
+d:
+cd D:\SHEFFIELD DRIVE\MYUDRIVE\THESIS SCRIPTING\PY\SCRIPTS\02_MULTI_AGENT_HB
+python MARL_cloud.py <- For simulation only
+python MARL_cloud_recoveronly.py <- recover only
+For some reason that I do not understand, you have to run MARL_cloud_recoveronly.py after
+getting results from MARL_cloud.py to get a compatible total_perfs.csv file for the generation of graphs
+(or maybe MARL_cloud_recoveronly.py is the correct version?)
+
+
+pip install -U honeybee-energy[standards]==1.95.21 (29/11/2022)
+pip install rhinoinside==0.6.0 (28/08/2021)
+pip install pollination-streamlit==0.5.0 (26/7/2022)
+pip install Rhino==0.0.5 (25/08/2015) <- Newest one
+pip install honeybee-radiance==1.64.107 (29/11/2022)
+
+### These packages update previous one, so install with no deps###
+pip install ladybug-rhino===1.38.1 --no-deps (15/11/2022)
+pip install lbt-recipes==0.23.0 --no-deps (8/08/2022) < este podria tener version anterior
+
+#### you must install ladybug tools so that a folder with "measures" exists in the "HOME" or "PROGRAMME FILES" folders
+Ladybug Tools 1.5.0 (21/06/2022)
+https://www.food4rhino.com/en/app/ladybug-tools
+
+#### you must install a open studio version compatible with Ladybug Tools 1.5.0 and lbt-recipes==0.23.0 
+
+### FOR RECOVER ONLY ####
+recover_data2.csv <- rel_dat_xxx_xxx.csv
+recover_years2.csv <- winning_policy.csv
